@@ -9,7 +9,7 @@ import avatar7 from "../assets/7.jpg";
 import avatar8 from "../assets/8.jpg";
 import avatar9 from "../assets/9.jpg";
 import Example from "../product_";
-function UserList() {
+function ContactPage() {
   const users = [
     {
       name: "Nguyễn Thảo Uyên",
@@ -72,4 +72,4 @@ function UserList() {
   );
 }
 
-export default UserList;
+export default ContactPage;

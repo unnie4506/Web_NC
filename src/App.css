@@ -43,7 +43,7 @@ h1{
 .logo {
   width: 130px; 
   height: 130px;
-  border-radius: 25px; 
+  border-radius: 50%; 
   border: 5px solid #5a7d32;
   object-fit: cover;
   margin-bottom: 20px;
@@ -75,4 +75,25 @@ button {
 
 button:hover {
   background-color: #5a7d32; 
+}
+
+.menu-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  background-color: #e886a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #5a7d32;
 }
